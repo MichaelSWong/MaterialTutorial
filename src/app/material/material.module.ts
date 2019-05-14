@@ -11,8 +11,10 @@ import {
   MatStepperModule,
   MatAutocompleteModule,
   MatCardModule,
-  MatTabsModule
+  MatTabsModule,
+  MatDatepickerModule
 } from "@angular/material";
+import { MatMomentDateModule } from "@angular/material-moment-adapter";
 
 const material = [
   MatButtonModule,
@@ -25,7 +27,9 @@ const material = [
   MatStepperModule,
   MatAutocompleteModule,
   MatCardModule,
-  MatTabsModule
+  MatTabsModule,
+  MatDatepickerModule,
+  MatMomentDateModule
 ];
 @NgModule({
   imports: [CommonModule, material],

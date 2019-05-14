@@ -7,12 +7,14 @@ import { CustomerListComponent } from "./customer-list/customer-list.component";
 import { CustomerCardComponent } from "./customer-card/customer-card.component";
 import { MaterialModule } from "../material/material.module";
 import { CustomerNewComponent } from "./customer-new/customer-new.component";
+import { RepDialogComponent } from "./rep-dialog/rep-dialog.component";
 
 @NgModule({
   declarations: [
     CustomerListComponent,
     CustomerCardComponent,
-    CustomerNewComponent
+    CustomerNewComponent,
+    RepDialogComponent
   ],
   imports: [
     CommonModule,
@@ -22,6 +24,7 @@ import { CustomerNewComponent } from "./customer-new/customer-new.component";
 
     // Material Components
     MaterialModule
-  ]
+  ],
+  entryComponents: [RepDialogComponent]
 })
 export class CustomersModule {}

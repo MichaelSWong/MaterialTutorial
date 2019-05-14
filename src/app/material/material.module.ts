@@ -12,7 +12,15 @@ import {
   MatAutocompleteModule,
   MatCardModule,
   MatTabsModule,
-  MatDatepickerModule
+  MatDatepickerModule,
+  MatDialogModule,
+  MatRadioModule,
+  MatSnackBarModule,
+  MatTooltipModule,
+  MatTableModule,
+  MatSortModule,
+  MatCheckboxModule,
+  MatPaginatorModule
 } from "@angular/material";
 import { MatMomentDateModule } from "@angular/material-moment-adapter";
 
@@ -29,7 +37,15 @@ const material = [
   MatCardModule,
   MatTabsModule,
   MatDatepickerModule,
-  MatMomentDateModule
+  MatMomentDateModule,
+  MatDialogModule,
+  MatRadioModule,
+  MatSnackBarModule,
+  MatTooltipModule,
+  MatTableModule,
+  MatSortModule,
+  MatCheckboxModule,
+  MatPaginatorModule
 ];
 @NgModule({
   imports: [CommonModule, material],

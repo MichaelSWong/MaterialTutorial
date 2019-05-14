@@ -3,10 +3,18 @@ import { CommonModule } from "@angular/common";
 import {
   MatButtonModule,
   MatIconModule,
-  MatSidenavModule
+  MatSidenavModule,
+  MatToolbarModule,
+  MatMenuModule
 } from "@angular/material";
 
-const material = [MatButtonModule, MatIconModule, MatSidenavModule];
+const material = [
+  MatButtonModule,
+  MatIconModule,
+  MatSidenavModule,
+  MatToolbarModule,
+  MatMenuModule
+];
 @NgModule({
   imports: [CommonModule, material],
   exports: [material],

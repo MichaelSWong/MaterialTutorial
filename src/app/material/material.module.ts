@@ -5,7 +5,13 @@ import {
   MatIconModule,
   MatSidenavModule,
   MatToolbarModule,
-  MatMenuModule
+  MatMenuModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatStepperModule,
+  MatAutocompleteModule,
+  MatCardModule,
+  MatTabsModule
 } from "@angular/material";
 
 const material = [
@@ -13,7 +19,13 @@ const material = [
   MatIconModule,
   MatSidenavModule,
   MatToolbarModule,
-  MatMenuModule
+  MatMenuModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatStepperModule,
+  MatAutocompleteModule,
+  MatCardModule,
+  MatTabsModule
 ];
 @NgModule({
   imports: [CommonModule, material],
